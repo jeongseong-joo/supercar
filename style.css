@@ -1,8 +1,13 @@
 body {
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30%;
   font-family: 'Jua', sans-serif;
-  background-color: #ffffff;
+  background-color: #000000;
   box-sizing: border-box;
-  color: #35465d;
+  color: #ddd;
+    
 }
 .file-upload {
     padding: 5% 3%;
@@ -10,6 +15,7 @@ body {
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
     background-color: #f6f7fa;
+    background-color: rgba(246, 247, 250, 0.5);
 }
 .file-upload-btn {
   width: 100%;
@@ -65,6 +71,7 @@ body {
     border-radius: 10px;
     border: dashed 1.5px #35465d;
     background-color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.7 );
 }
 
 .image-dropping,
@@ -137,13 +144,13 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #35465d;
+  color: #ddd;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #35465d;
+  color: #ddd;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -309,38 +316,38 @@ body {
     font-size: 1.5rem;
 }
 .dog-animal-title {
-    color: #3ba363;
+    color: #023d53;
 }
 .dog-animal-celeb {
-    color: #3ba363;
+    color: #023d53;
     font-size: 1.2rem;
 }
 .cat-animal-title {
-    color: #3ba363;
+    color: #0a123a;
 }
 .cat-animal-celeb {
-    color: #3ba363;
+    color: #0a123a;
     font-size: 1.2rem;
 }
 .rabbit-animal-title {
-    color: #ff6c0a;
+    color: #cc0000;
 }
 .rabbit-animal-celeb {
-    color: #ff6c0a;
+    color: #cc0000;
     font-size: 1.2rem;
 }
 .dinosaur-animal-title {
-    color: #548dd4;
+    color: #305089;
 }
 .dinosaur-animal-celeb {
-    color: #548dd4;
+    color: #305089;
     font-size: 1.2rem;
 }
 .bear-animal-title {
-    color: #9b6b43;
+    color: #f15922;
 }
 .bear-animal-celeb {
-    color: #9b6b43;
+    color: #f15922;
     font-size: 1.2rem;
 }
 
