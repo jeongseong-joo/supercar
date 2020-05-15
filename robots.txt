@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap:https://hypercar1.com/sitemap.xml
