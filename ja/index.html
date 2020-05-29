@@ -33,14 +33,14 @@
     <link rel="alternate" hreflang="id" href="https://hypercar1.com/id/index.html" />
     <link rel="alternate" hreflang="x-default" href="https://hypercar1.com/" />
      <meta name="title" content="MY HYPERCAR">
-    <meta name="subject" content="얼굴로 보는 나에게 어울리는 하이퍼카, 슈퍼카. 나에게 어울리는 하이퍼카를 찾아보세요!">
-    <meta name="keywords" content="수퍼카, 하이퍼카, 인공지능 자동차, 얼굴상, 얼굴상 테스트, 나의 자동차, 자동차 찾기, 얼굴로 보는 자동차, 얼굴 슈퍼카, 얼굴 하이퍼카, 인공지능 슈퍼카, 인공지능 하이퍼카, AI supercar, AI hyper car">
+    <meta name="subject" content="顔で見る私に似合うハイパーカー、スーパーカー。私に似合うハイパーカー見つけてください!">
+    <meta name="keywords" content="スーパーカー、ハイパーカー、人工知能自動車、オルグルサン、オルグルサンのテスト、私の車、車の検索、顔で見る自動車、顔スーパーカー、顔ハイパーカー、人工知能スーパーカー、人工知能ハイパーカー, AI supercar, AI hyper car">
     <meta name="author" content="papaplay">
-    <meta name="description" content="인공지능을 활용하여 얼굴로 보는 나에게 맞는 슈퍼카, 하이퍼카, 나와 어울리는 슈퍼카, 하이퍼카를 찾아보세요! 대표 특징별 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴로 슈퍼카를 찾아드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 하이카 테스트 한번 해보세요! ">   
+    <meta name="description" content="人工知能を活用して、顔に見る私に合うスーパーカー、ハイパーカー、出て似合うスーパーカー、ハイパーカー見つけてください！代表特徴別有名人の写真データで学習した人工知能が私の顔でスーパーカーを探しています。会員登録も必要とせず、画面から直接確認してください！写真データは、どこにも送信されません。人工知能が見る私のハイテスト一度みてください! ">   
     <meta property="og:url" content="https://hypercar1.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="MY HYPER CAR" />
-    <meta property="og:description" content="인공지능이 분석하는 얼굴로 보는 나의 슈퍼카, 하이퍼카. 나와 어울리는 슈퍼카를 찾아보세요! 대표 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴로 나에게 어울리는 슈퍼카, 하이퍼카를 찾아드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다."/>
+    <meta property="og:description" content="人工知能が分析する顔で見る私のスーパーカー、ハイパーカー。私似合うスーパーカーを見つけてください！代表有名人の写真データで学習した人工知能が私の顔で私に似合うスーパーカー、ハイパーカー見つけます。会員登録も必要とせず、画面から直接確認してください！写真データは、どこにも送信されません."/>
     <!--fabicon-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -122,8 +122,8 @@
     <section class="section">
         <h1 class="title">AI SUPERCAR ADVISER</h1>
         <h2 class="subtitle">
-AI will find your supercar. <br>
-        Check your supercar.
+AIがスーパーカーを見つけます. <br>
+        スーパーカーをチェック.
 </h2>
     </section>
     <!--
@@ -143,7 +143,8 @@ AI will find your supercar. <br>
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
                 <img src="../img/upload.svg" class="mt-5 pt-5 upload">
-                <h3 class="mb-3 pb-2 pt-2 upload-text">Please upload a photo of your face</h3>
+                <h3 class="mb-3 pb-2 pt-2 upload-text">
+顔写真をアップロードしてください</h3>
             </div>
         </div>
         <div class="file-upload-content">
@@ -151,9 +152,9 @@ AI will find your supercar. <br>
 
             <div id="loading" class="animated bounce">
                 <div class="spinner-border" role="status">
-                    <span class="sr-only">Loading...</span>
+                    <span class="sr-only">読み込み中...</span>
                 </div>
-                <p class="text-center">AI is analyzing now.</p>
+                <p class="text-center">AIは現在分析中です.</p>
             </div>
 
             <p class="result-message"></p>
@@ -165,7 +166,8 @@ AI will find your supercar. <br>
             
             <div class="pt-3 image-title-wrap">
                 <button type="button p-2" onclick="window.location.reload();" class="try-again-btn">
-                    <span class="try-again-text">TRY AGAIN</span>
+                    <span class="try-again-text">
+再試行</span>
                 </button>
 
             </div>
@@ -175,16 +177,18 @@ AI will find your supercar. <br>
     
      <p style="text-align:center;">
         <em>
-The analysis result is based on the Teachable Machine analysis.<br>
+分析結果は、ティーチ可能なマシン分析に基づいています.<br>
            
-It may differ from personal preferences.</em>
+
+個人の好みとは異なる場合があります.</em>
     </p>
     
         <section class="youtube pb-3">
     <div class="container mt-3 youtube-cover d-flex flex-row-reverse align-items-center">
         <img src="../img/youtube-icon.jpg" alt="youtube-icon" class="youtube-icon">
         <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">
-Production Help: Joe Coding YouTube Channel</a>
+
+制作ヘルプ：Joe Coding YouTubeチャンネル</a>
     </div>
 </section>
     <!-- imageupload-->
@@ -308,42 +312,42 @@ Production Help: Joe Coding YouTube Channel</a>
             switch (prediction[0].className) {
                 case "dog":
                     resultTitle = "Porsche Carrera GT"
-                    resultExplain = "Carrera GT is recommended for you who are friendly and popular."
-                    resultCeleb = '<a href="https://www.porsche.com/" style="color: #023d53;">Search Carrera GT now.</a>'
+                    resultExplain = "Carrera GTはフレンドリーで人気のあるあなたにおすすめです."
+                    resultCeleb = '<a href="https://www.porsche.com/" style="color: #023d53;">Carrera GT を今すぐ検索.</a>'
                     resultImage='<iframe width="320" height="180" src="https://www.youtube.com/embed/VKjfkZzp9EM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
                     break;
                     
                 case "cat":
                     resultTitle = "Koenigsegg one:1"
-                    resultExplain = "The first impression is cold, but I recommend ONE: 1 to you with strange charm and strong pride."
-                    resultCeleb =  '<a href="https://www.koenigsegg.com/" style="color: #0a123a;">Search ONE:1 now.</a>'
+                    resultExplain = "第一印象は寒いですが、ONE：1奇妙な魅力とプライドの強いあなたにおすすめ."
+                    resultCeleb =  '<a href="https://www.koenigsegg.com/" style="color: #0a123a;">ONE：1を今すぐ検索.</a>'
                     resultImage='<iframe width="320" height="180" src="https://www.youtube.com/embed/qeiKKgsvHyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
                     break;
 
                 case "rabbit":
                     resultTitle = "Ferrari Laferrari"
-                    resultExplain = "Laferrari is recommended for you who are curious and active."
-                    resultCeleb = '<a href="https://ferrari.com" style="color: #cc0000;">Search Laferrari now.</a>'
+                    resultExplain = "Laferrari 好奇心旺盛でアクティブなあなたにおすすめ."
+                    resultCeleb = '<a href="https://ferrari.com" style="color: #cc0000;">Laferrari を今すぐ検索.</a>'
                     resultImage='<iframe width="320" height="180" src="https://www.youtube.com/embed/iRsV6YpLsKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
                     break;
 
                 case "dinosaur":
                     
                     resultTitle = "McLaren P1"
-                    resultExplain = "It seems indifferent, but I recommend P1 to you who are warm."
-                    resultCeleb = '<a href="https://www.mclaren.com/" style="color: #305089;">Search McLaren P1 now.</a>'
+                    resultExplain = "無関心に見えますが、暖かい方にはP1をお勧めします."
+                    resultCeleb = '<a href="https://www.mclaren.com/" style="color: #305089;">McLaren P1 を今すぐ検索.</a>'
                     resultImage='<iframe width="320" height="180" src="https://www.youtube.com/embed/qa4aL6Kkv6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
                     break;
 
                 case "bear":
                     resultTitle = "Lamborghini Aventardor"
-                    resultExplain = " The first impression is strong, but if you know, I recommend Aventardor to you who are cute."
-                    resultCeleb = '<a href="https://www.lamborghini.com/" style="color: #f15922;">Search Aventardor now.</a>'
+                    resultExplain = "第一印象は強いですが、ご存知の方は可愛いアベンタードールをお勧めします."
+                    resultCeleb = '<a href="https://www.lamborghini.com/" style="color: #f15922;">今すぐAventardorを検索してください。</a>'
                     resultImage='<iframe width="320" height="180" src="https://www.youtube.com/embed/SxfrnrdGzkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
                     break;
 
                 default:
-                    resultTitle = "알수없음"
+                    resultTitle = "わからない"
                     resultExplain = ""
                     resultCeleb = ""
                   
